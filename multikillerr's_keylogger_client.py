@@ -19,9 +19,6 @@ clock = pygame.time.Clock()
 
 
 s=socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-def text_objects(text, font):
-    textSurface = font.render(text, True, black)
-    return textSurface, textSurface.get_rect()
 def connection():
     try:
         host_ip=socket.gethostbyname('127.0.0.1')
