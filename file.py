@@ -1,4 +1,5 @@
-
+import sys
+import shutil
 filename=raw_input("Enter the file name: ")
 
 def file1(file):
